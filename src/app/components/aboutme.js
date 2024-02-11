@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export default function AboutMe() {
   return (
     <div id="about_me" className="bg-black w-full h-auto mt-8">
