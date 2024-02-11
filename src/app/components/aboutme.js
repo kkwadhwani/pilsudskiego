@@ -14,14 +14,14 @@ export default function AboutMe() {
         Greetings! I&apos;m Neetu Wadhwani, and I've called Wroclaw home for the
         past 15 months. My cozy apartment on Pilsudskiego Street, just a short
         distance from Wroclaw Glowny, is a welcoming haven for those seeking a
-        brief stay in this enchanting city. Wroclaw's unique blend of history
-        and modernity, evident in its Old Town and lively squares, captured my
-        heart from the start. I invite you to experience the warmth of my home
-        and the magic of Wroclaw – a city that seamlessly weaves tradition,
-        delicious cuisine, and genuine hospitality. Your journey begins here,
-        where comfort meets the vibrant spirit of Wroclaw. Feel free to reach
-        out for bookings or any inquiries – I can't wait to share the beauty of
-        this city with you.
+        brief stay in this enchanting city. Wroclaw&apos;s unique blend of
+        history and modernity, evident in its Old Town and lively squares,
+        captured my heart from the start. I invite you to experience the warmth
+        of my home and the magic of Wroclaw – a city that seamlessly weaves
+        tradition, delicious cuisine, and genuine hospitality. Your journey
+        begins here, where comfort meets the vibrant spirit of Wroclaw. Feel
+        free to reach out for bookings or any inquiries – I can&apos;t wait to
+        share the beauty of this city with you.
       </div>
     </div>
   );
