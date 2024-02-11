@@ -3,6 +3,8 @@ import Link from "next/link";
 import Navigation from "./components/navigation";
 import Bannner from "./components/banner";
 import AboutMe from "./components/aboutme";
+import Maps from "./components/maps";
+import Location from "./components/location";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         <Navigation />
         <Bannner />
         <AboutMe />
+
+        <Location />
       </div>
     </main>
   );
