@@ -8,7 +8,7 @@ export default function Maps() {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: process.env.NEXT_PUBLIC_GOOGLEMAPS_APIKEY,
+        apiKey: process.env.NEXT_PUBLIC_GOOGLEMAPS_API,
         version: "weekly",
       });
 

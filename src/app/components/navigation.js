@@ -10,7 +10,12 @@ export default function Navigation() {
     >
       <div className="">
         <Link href="#">
-          <Image src={"/logo/Wroclaw glowny.png"} width={150} height={150} />
+          <Image
+            src={"/logo/Wroclaw glowny.png"}
+            width={150}
+            height={150}
+            alt="wroclaw glowny apartment logo"
+          />
         </Link>
       </div>
       <div className="flex justify-normal space-x-2 ">

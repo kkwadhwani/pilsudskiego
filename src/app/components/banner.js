@@ -20,7 +20,12 @@ export default function Bannner() {
         </div>
       </div>
       <div className="md:w-2/3 ml-12 sm:w-full">
-        <Image src={"/city/Wroclaw_city.jpg"} width={700} height={500} />
+        <Image
+          src={"/city/Wroclaw_city.jpg"}
+          width={700}
+          height={500}
+          alt="wroclaw city"
+        />
       </div>
     </div>
   );
