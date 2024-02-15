@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Wroclaw Glowny Apartment",
-  description: "Best Apartment just nearby Wroclaw Glowny",
+  description:
+    "Best Apartment for a short stay just nearby Wroclaw Glowny - in the heart of the city",
 };
 
 export default function RootLayout({ children }) {

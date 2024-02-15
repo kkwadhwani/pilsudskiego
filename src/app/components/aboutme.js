@@ -12,7 +12,7 @@ export default function AboutMe() {
       >
         Wroclaw: Where Dwarfs Bring Magic to Every Street"
       </div>
-      <div className=" text-center  text-white text-md pl-64  leading-9 pb-10 pr-64 font-thin">
+      <div className=" text-center  text-white text-md md:pl-64  leading-9 pb-10 md:pr-64 font-thin pl-8 pr-8">
         Greetings! I&apos;m Neetu Wadhwani, and I've called Wroclaw home for the
         past 15 months. My cozy apartment on Pilsudskiego Street, just a short
         distance from Wroclaw Glowny, is a welcoming haven for those seeking a
