@@ -7,6 +7,9 @@ export const metadata = {
   title: "Wroclaw Glowny Apartment",
   description:
     "Best Apartment for a short stay just nearby Wroclaw Glowny - in the heart of the city",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }) {
