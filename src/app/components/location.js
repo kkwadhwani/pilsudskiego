@@ -2,8 +2,8 @@ import Maps from "./maps";
 
 export default function Location() {
   return (
-    <div className="md:flex w-full h-5/6  flex sm:flex-col">
-      <div className="sm:w-full  md:w-1/2 h-full bg-gray-800">
+    <div className="md:flex w-full   sm:flex-col h-auto">
+      <div className="sm:w-full  md:w-1/2 h-auto bg-gray-800 pb-9">
         <div className="flex justify-center">
           <div className=" bg-amber-700 w-px h-32"></div>
         </div>
@@ -39,7 +39,7 @@ export default function Location() {
         </div>
       </div>
 
-      <div className="md:w-1/2 sm:w-full">
+      <div className="md:w-1/2 sm:w-full h-auto">
         <Maps />
       </div>
     </div>
