@@ -6,6 +6,7 @@ import AboutMe from "./components/aboutme";
 import Maps from "./components/maps";
 import Location from "./components/location";
 import House from "./components/house";
+import ContactForm from "./components/contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
         <Location />
         <House />
+        <ContactForm />
       </div>
     </main>
   );

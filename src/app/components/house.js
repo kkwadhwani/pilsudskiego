@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function House() {
   return (
-    <div className="bg-[url('/home/wroclaw2.png')] w-screen h-auto ">
+    <div className="bg-[url('/home/wroclaw2.png')] w-screen h-auto pt-5 pb-5">
       <div
-        className="carousel md:w-1/2 flex m-auto sm:w-full border border-8 border-white rounded rounded-lg"
-        style={{ height: "700px" }}
+        className="carousel md:w-2/3  flex m-auto sm:w-full   border border-8 rounded rounded-lg border-orange-100"
+        style={{ height: "35em" }}
       >
         <div id="slide1" className="carousel-item relative w-full">
           <Image
@@ -19,7 +19,7 @@ export default function House() {
             <a href="#slide8" className="btn btn-circle">
               ❮
             </a>
-            <a href="#slide2" className="btn btn-circle">
+            <a href="#slide3" className="btn btn-circle">
               ❯
             </a>
           </div>
@@ -27,7 +27,7 @@ export default function House() {
 
         {/* 2nd image */}
 
-        <div id="slide2" className="carousel-item relative w-full">
+        {/* <div id="slide2" className="carousel-item relative w-full">
           <Image
             src="/home/front.jpg"
             className="w-full"
@@ -43,7 +43,7 @@ export default function House() {
               ❯
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* 3rd image */}
 
@@ -56,7 +56,7 @@ export default function House() {
             alt="wroclaw glowny apartment room"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-circle">
+            <a href="#slide1" className="btn btn-circle">
               ❮
             </a>
             <a href="#slide4" className="btn btn-circle">
